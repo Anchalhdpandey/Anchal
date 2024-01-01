@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: cursive;
+      }
+      #parent-div {
+        width: 100%;
+      }
+      #info{
+        border: 2px solid blue;
+        width: 40%;
+        height: 400px;
+      }
+      a{
+        display: block;
+        text-decoration: none;
+      }
+      #project{
+        width: 60%;
+        border: 2px solid purple;
+      }
+      .m-1{
+        margin-left: 100px;
+      }
+      table, td, th{
+        border:2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      tr{
+        height: 100px;
+      }
+      th, tr{
+        width: 300px;
+        font-size: larger;
+      }
+      .fs-1{
+        font-size: 28px;
+      }
+      form{
+        border:2px solid black;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+      form>input{
+        width:170px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent-div">
+      <div id="info">
+        <div style="height: 200px; width: 200px">
+          <img
+            style="width: 100%; height: 100%; border-radius: 50%"
+            src="https://media.licdn.com/dms/image/D4D03AQEYo2gqueqSDA/profile-displayphoto-shrink_400_400/0/1674380968902?e=1709769600&v=beta&t=EEA0wF-tsVoBLe_gnmetujgqqVqSZsxZTzNGW5xZaMo"
+          />
+        </div>
+        <h1>Anchal Pandey</h1>
+        <h4>9004692463</h4>
+        <h4>anchalpandey1190@gmail.com</h4>
+        <h4>Tech stacks- HTML CSS Python sql</h4>
+        <a href="https://github.com/Anchalhdpandey/Anchal/tree/main">Github- Anchalhdpandey
+        </a>
+        <a href="https://www.linkedin.com/in/anchal-pandey-278721175/">LinkedIn- Anchal Pandey</a>
+      </div>
+      <div id="project">
+        <h1>Projects</h1>
+      <div class="project">
+        <h2>Amazon clone</h2>
+        <p>Tech stack- Html</p>
+        <p>Functionalities-
+            <ul class="m-1">
+                <li>Auth</li>
+                <li>sortings</li>
+            </ul>
+        </p>
+      </div>
+      <div class="project">
+        <h2>Flipcart clone</h2>
+        <p>Tech stack- Html</p>
+        <p>Functionalities-
+            <ul class="m-1">
+                <li>Auth</li>
+                <li>sortings</li>
+            </ul>
+        </p>
+    </div>
+      </div>
+      <div id="education">
+        <table>
+            <thead><tr><th>Sr no</th>
+            <th>School name</th>
+            <th>Year of graduation</th>
+            <th>% Grade</th>
+        </tr></thead>
+            <tbody><tr>
+                <td>1.</td>
+                <td>Awdiz Institute</td>
+                <td>2024</td>
+            <td>95%</td></tr>
+            <tr>
+                <td>2.</td>
+                <td>Datta meghe college of engineering</td>
+                <td>2022</td>
+            <td>75%</td></tr>
+            <tr>
+                <td>3.</td>
+                <td>RKT college </td>
+                <td>2018</td>
+            <td>87%</td></tr></tbody>
+        </table>
+      </div>
+      <div id="cer">
+        <h1>Certifications</h1>
+        <ol class="m-1 fs-1">
+            <li>Meta React Certifications</li>
+            <a target="_blank" href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a> <li>Meta Backend cerifications
+                <a target="_blank"
+                    href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+            </li>
+            <li>Linkedin HTML cerifications
+                <a target="_blank"
+                    href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+            </li>
+            <li>Linkedin CSS cerifications
+                <a target="_blank"
+                    href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+            </li>
+            <li>Linkedin JS cerifications
+                <a target="_blank"
+                    href="https://www.coursera.org/professional-certificates/meta-front-end-developer">🔗</a>
+            </li>
+        </ol>
+    </div>
+    <div id="ach">
+        <h1>Achievements</h1>
+        <ul class="m-1">
+            <li>Got first rank in hackerrank DSA test <a href="https://www.hackerrank.com/skills-verification/frontend_developer_react">🔗</a></li>
+            <li>Got first rank in hackerrank React test <a href="https://www.hackerrank.com/skills-verification/frontend_developer_react">🔗</a></li>
+        </ul>
+    </div>
+    <form>
+        <legend>Contact me</legend>
+        <label>Type your message</label><br/>
+        <textarea required type="text"></textarea><br/>
+        <label>Type your email</label><br/>
+        <input required style="border: 1px solid black;" type="email"/><br/>
+        <input type="submit" value="submit message">
+    </form>
+    </div>
+  </body> 
+</html>

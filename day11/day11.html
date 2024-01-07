@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>day 11</title>
+    </head>
+    <body>
+        <textarea rows="10" cols="10"></textarea>
+        <button onclick="alert('you have clicked this!!!!hurray')">Click Me</button>
+        <form>
+            <fieldset>
+                <legend>Newsletter</legend>
+                <label>subcribe our newsletter</label><br/>
+                <input type="email"/><br/>
+                <input type="submit"/><br/>
+            </fieldset>
+        </form>
+        <input value="arcticwarrior" readonly/>
+        <input value="arcticwarrior" disabled/>
+        <input type="text"/><br/>
+        <input type="text" size="50"/><br/>
+        <input maxlength="2"/>
+        <form>
+            <input required type="number" max="30" min="0" title="Number should be in 30 range"/><br/>
+            <input type="submit"/>
+        </form>
+        <input type="text" pattern="\w{3,16}"/>
+        <input type="text" required/>
+        <button>submit</button>
+        <input type="email" autofocus/><br/>
+        <input type="password"/>
+        <form>
+            <input type="text" id="uname" name="name" required size="45" pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"/><br/>
+            <input type="submit"/><br/>
+        </form>
+        <form action="http://localhost:8000/api/v1/register">
+            <input/><br/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

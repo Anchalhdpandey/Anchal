@@ -44,6 +44,7 @@
         justify-content: space-between;
         font-weight: bold;
         padding-top: 22px;
+        font-size: 14px;
       }
       #profile {
         width: 15%;
@@ -60,12 +61,86 @@
         /* border: 2px solid blue; */
         margin-top: 60px;
       }
+      #body-nav{
+        /* border:2px solid blue; */
+        height:140px;
+        padding:30px;
+      }
+      .d-flex{
+        display:flex;
+      }
+      .jc-between{
+        justify-content: space-between;
+      }
+      .w-10{
+        width:10%;
+      }
+      .w-60{
+        width:64%;
+      }
+      .pl-20{
+        padding-left: 20px;
+      }
+      .px-10{
+        padding:0px 10px;
+      }
+      .ai-center{
+        align-items: center;
+      }
+      .b-black{
+        border:1px solid black;
+      }
+      .m-14{
+        margin-top: 60px;
+      }
+      #body-body{
+        /* border: 2px solid red; */
+        display: flex;
+      }
+      #body-body-filters{
+        width:15%;
+        /* border: 1px solid black; */
+      }
+      .p-30{
+        padding: 20px;
+      }
+      .py-10{
+        padding-top: 10px;
+      }
+      .percent{
+        width:20%;
+      }
+      .adjust{
+        width:100%;
+        height: 100%;
+      }
+      .size{
+        width:20%;
+        border:1px solid wheat;
+        box-shadow: 20px blue;
+        border-radius: 5px;
+        padding: 5px;
+      }
+      .virat{
+        width: 100%;
+        height: 70%;
+      }
+      #body-body-products{
+        /* border:1px solid purple; */
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      del{
+        color:grey;
+      }
      @media screen and (min-width:900px) and (max-width:1300px) {
-      #profile>span{
+      #profile>div:nth-child(4){
         display:none;
       }
      }
-     @media screen and (min-width:420px) and (max-width:890px) {
+     @media screen and (min-width:250px) and (max-width:500px) {
       #profile>div{
         display:none;
       }
@@ -119,12 +194,82 @@
             <div class="direction"><i class="fa-regular fa-user"></i><p>Profile</p></div>
             <div><i class="fa-regular fa-heart"></i><p>Wishlist</p></div>
             <div><i class="fa-solid fa-bag-shopping"></i><p>bag</p></div>
-            <span><i class="fa-solid fa-bars"></i></span>
+            <div><i class="fa-solid fa-bars"></i></div>
         </div>
       </div>
       <div id="body">
-       
+       <div id="body-nav">
+        <div>
+          <p>Home / Clothing/<b>Men T-shirts</b></p>
+        </div>
+        <div>
+          <p><b>Men T-shirts</b> -127113</p>
+        </div>
+        <div class="d-flex jc-between m-14">
+          <div class="w-10">
+            <p><b>FILTERS</b></p>
+          </div>
+          <div class="d-flex w-60 pl-20">
+            <div class="px-10 d-flex ai-center">
+              <p>Bundles
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+            <div class="px-10">
+              <p>Country
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+            <div class="px-10">
+              <p>Size
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+          </div>
+          <div class="b-black w-20 d-flex jc-between px-10">
+            <div>
+              <p>Sort by : <b>Recommended</b></p>
+            </div>
+            <div><i class="fa-solid fa-angle-down"></i></div>
+          </div>
+        </div>
+       </div>
+       <div id="body-body">
+        <div id="body-body-filters" class="w-100">
+          <div class="b-black w-100 p-30">
+            <p><b>CATEGORIES</b></p>
+            <div>
+            <div class="py-10">
+              <input type="checkbox"/><span>Tshirts</span>
+            </div>
+            <div>
+              <div class="py-10"><input type="checkbox"/><span>Longue Tshirt</span>
+              </div>
+          </div>
+        </div>
+      <div>
       </div>
     </div>
+    <div class="b-black w-100 p-30">
+      <p><b>BRAND</b></p>
+      <div>
+      <div class="py-10"><input type="checkbox"/><span>Tshirts</span></div>
+      <div><div class="py-10"><input type="checkbox"/><span>Longue Tshirt</span></div>
+      <div><div class="py-10"><input type="checkbox"/><span>OLD grey</span></div>
+      <div><div class="py-10"><input type="checkbox"/><span>WROGYN</span></div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div id="body-body-products">
+    <div class="size"><img src="../media/download.jpg" class="virat"><b>WROGN</b><p>Printed T-shirt</p>Rs. 1200 <span><del>Rs 2000</del></span><p></p></div>
+    <div class="size"><img src="../media/inchh-men-s-cotton-round-neck-colour-block-half-sleeve-t-shirt-product-images-rvwdefi63d-0-202207250226.webp" class="virat"><b>WROGN</b><p>Printed T-shirt</p>Rs. 1500 <span><del>Rs 2000</del></span><p></p></div>
+    <div class="size"><img src="../media/666da848-fe4d-4b79-9386-a02cc610decc1693035565573-XYXX-Men-Blue-N9-Silver-Finish-Solid-Lounge-T-shirts-5151693-1.avif" class="virat"><b>WROGN</b><p>Printed T-shirt</p>Rs. 1000 <span><del>Rs 2000</del></span><p></p></div>
+    <div class="size"><img src="../media/6888206c-f96c-4b5b-90c0-5608c51509ae1616056784409-WROGN-Men-Charcoal-Grey-Printed-V-Neck-Slim-Fit-T-shirt-7316-1.avif" class="virat"><b>WROGN</b><p>Printed T-shirt</p>Rs. 1700 <span><del>Rs 2000</del></span><p></p></div>
+  
+  </div>
+  </div>
   </body>
 </html>

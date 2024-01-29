@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/a82e46f715.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Roboto, Helvetica, Arial, sans-serif;
+      }
+      #logo {
+        width: 6%;
+      }
+      .h-w-100 {
+        height: 100%;
+        width: 100%;
+      }
+      #screen {
+        width: 100%;
+        /* border: 2px solid red; */
+      }
+      #navbar {
+        height: 60px;
+        /* border: 2px solid black; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: white;
+      }
+      #navs {
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        padding-top: 22px;
+        font-size: 14px;
+      }
+      #profile {
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 14px;
+      }
+      #search {
+        width: 35%;
+        padding-top: 10px;
+      }
+      .nav {
+        border: 1px solid red;
+      }
+      .main-div {
+        display: flex;
+        margin-top: 20px;
+      }
+      .child-one {
+        width: 60%;
+        /* border: 1px solid red; */
+      }
+      .thirty {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .thirty .img-div {
+        width: 45%;
+        margin-bottom: 10px;
+      }
+      .thirty .img-div img {
+        width: 100%;
+      }
+      .height-100 {
+        width: 100%;
+        height: 100%;
+      }
+      .content {
+        width: 40%;
+      }
+      .display {
+        display: inline-block;
+      }
+      .x-l {
+        display: flex;
+      }
+      .border {
+        margin: 9px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        padding: 19px;
+      }
+      .inline {
+        display: flex;
+        margin-top: 30px;
+      }
+      .shopp {
+        padding: 25px;
+        border: 1px solid red;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+        background-color: #ff3e6c;
+        margin-right: 29px;
+        border-radius: 10px;
+      }
+      .heart {
+        padding: 25px;
+        border: 1px solid grey;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+        background-color: whitesmoke;
+        margin-right: 29px;
+        border-radius: 10px;
+      }
+      .input {
+        border: none;
+        outline: none;
+      }
+      .in-gray {
+        display: flex;
+        border: 1px solid gray;
+        padding: 15px;
+        width: 13rem;
+        margin-top: 18px;
+      }
+      .line{
+        display: flex;
+        margin-top: 10px;
+      }
+      .colornew{
+        color: #282c3f;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="navbar">
+        <div id="logo">
+          <img
+            class="h-w-100"
+            src="https://mumbaimirror.indiatimes.com/photo/80601325.cms"
+            alt="home"
+          />
+        </div>
+        <div id="navs">
+          <div>MENS</div>
+          <div>WOMENS</div>
+          <div>KIDS</div>
+          <div>HOME</div>
+          <div>BEAUTY</div>
+          <div>STUDIO<sup style="color: rgb(239, 0, 56)">NEW</sup></div>
+        </div>
+        <div id="search">
+          <div
+            style="
+              width: 70%;
+              display: flex;
+              justify-content: space-between;
+              margin: auto;
+              background-color: #f5f5f6;
+              height: 20px;
+              padding: 10px;
+            "
+          >
+            <i
+              style="width: 10%; margin-top: 4px"
+              class="fa-solid fa-magnifying-glass"
+            ></i>
+            <input
+              placeholder="Search for products brand and more"
+              type="text"
+              style="
+                width: 85%;
+                background-color: #f5f5f6;
+                border: none;
+                outline: none;
+              "
+            />
+          </div>
+        </div>
+        <div id="profile">
+          <div class="direction">
+            <i class="fa-regular fa-user"></i>
+            <p>Profile</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+            <p>Wishlist</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>bag</p>
+          </div>
+        </div>
+      </div>
+      <div class="div" style="margin-top: 5rem; margin-left: 27px">
+        <p>
+          Home / Clothing / Men Clothing / T-shirts /<b>
+            HERE&NOW Tshirts>More By HERE&NOW</b
+          >
+        </p>
+      </div>
+      <div class="main-div">
+        <div class="child-one">
+          <div class="thirty">
+            <div class="img-div">
+              <img
+                src="../media/ef595aa2-c75a-4f34-900a-ae2de2c64eb71685342875271-HERENOW-Men-Tshirts-8441685342874860-1.avif"
+                class="height-100"
+              />
+            </div>
+            <div class="img-div">
+              <img
+                src="../media/a857c325-fe8d-4a36-b410-d66e631703671685342875262-HERENOW-Men-Tshirts-8441685342874860-2.avif"
+                class="height-100"
+              />
+            </div>
+            <div class="img-div">
+              <img
+                src="../media/a857c325-fe8d-4a36-b410-d66e631703671685342875262-HERENOW-Men-Tshirts-8441685342874860-2.avif"
+                class="height-100"
+              />
+            </div>
+            <div class="img-div">
+              <img
+                src="../media/68a9ce7a-0056-46b4-a13b-711af6ca5aa61685342875252-HERENOW-Men-Tshirts-8441685342874860-3.avif"
+                class="height-100"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <h1>HERE&NOW</h1>
+          <p style="color: gray; margin-bottom: 19px">
+            Minimal Typography Print Detail Polo Collar T-shirt
+          </p>
+
+          <span style="border: 1px solid #c7d0ed; padding: 5px; margin-top: 5px"
+            ><b>4</b> <i class="fa-solid fa-star"></i
+            ><span style="color: gray"> 67 Ratings</span></span
+          >
+          <hr style="margin-top: 13px" />
+          <p style="font-size: 21px; word-spacing: 5px">
+            <b> <i class="fa-solid fa-indian-rupee-sign"> 311</i></b
+            ><span style="color: gray">
+              MRP <del>RS 799</del
+              ><span
+                style="
+                  font-size: 24px;
+                  font-weight: 700;
+                  letter-spacing: 2px;
+                  color: #ff905a;
+                "
+              >
+                (61% OFF)</span
+              ></span
+            >
+          </p>
+          <p
+            style="
+              color: #03a685;
+              font-weight: 700;
+              font-size: 14px;
+              display: block;
+              margin: 5px 10px 0 0;
+            "
+          >
+            inclusive of all taxes
+          </p>
+          <p style="font-weight: 700; color: #282c3f; margin: 5px 10px 0 0">
+            MORE COLOR
+          </p>
+          <img
+            src="../media/776360af-fe27-4b78-9d58-553e951e4d511685342987738-HERENOW-Men-Tshirts-1901685342987332-1.webp"
+          /><br />
+          <span class="display" style="margin-top: 15px"
+            ><b>SELECT SIZE</b
+            ><span style="color: #ff3e6c; margin-left: 36px">
+              <b>SIZE CHART></b></span
+            ></span
+          >
+          <div class="x-l">
+            <p class="border">S</p>
+            <p class="border">M</p>
+            <p class="border">X</p>
+            <p class="border">XL</p>
+          </div>
+          <div class="inline">
+            <div class="shopp">
+              <i class="fa-solid fa-bag-shopping"
+                ><span style="font-weight: 100"> <b>ADD TO BAG</b></span></i
+              >
+            </div>
+            <div class="heart">
+              <i class="fa-regular fa-heart"
+                ><span style="font-weight: 100"> WISHLIST</span></i
+              >
+            </div>
+          </div>
+          <hr
+            style="
+              width: 90%;
+              margin-top: 15px;
+              box-shadow: rgba(195, 104, 104, 0.1) 0px 4px 12px;
+            "
+          />
+          <div style="margin-top: 45px">
+            <p><b>DELIVERY OPTIONS </b><i class="fa-solid fa-truck"></i></p>
+          </div>
+          <div class="in-gray">
+            <input type="text" placeholder="Enter Pincode" class="input" />
+            <p style="font-size: 14px; color: #ff3e6c"><b>Check</b></p>
+          </div>
+          <p style="margin-top: 13px; font-size: 13px; color: rgb(57, 55, 55)">
+            Please enter PIN code to check delivery time & Pay on Delivery
+            Availability
+          </p>
+          <p style="margin-top: 13px; color: rgb(57, 55, 55)">
+            100% Original Products
+          </p>
+          <p style="margin-top: 13px; color: rgb(57, 55, 55)">
+            Pay on delivery might be available
+          </p>
+          <p style="margin-top: 13px; color: rgb(57, 55, 55)">
+            Easy 14 days returns and exchanges
+          </p>
+          <p style="margin-top: 13px; color: rgb(57, 55, 55)">
+            Try & Buy might be available
+          </p>
+          <p style="margin-top: 23px; color: rgb(57, 55, 55)">
+            <b>BEST OFFERS</b>
+          </p>
+         <ul style="margin-top: 15px; font-size: 18px; color: rgb(57, 55, 55);">
+            <li>Coupon Discount: Rs. 72 off (check cart for final savings)</li>
+            <li>Applicable on: Orders above Rs. 649 (only on first purchase)</li>
+            <li>Coupon code: <b>TOPBRANDOFFER</b></li>
+          </ul>
+          <p style="color: #ff3e6c; margin-top: 15px; font-size: 16px;"><b>View Eligible Products</b></p>
+          <p style="margin-top: 23px; color: rgb(57, 55, 55)"><b>EMI option available</b></p>
+          <p style="color: #ff3e6c; margin-top: 15px; font-size: 14px;"><b>View Plan</b></p>
+          <hr
+            style="
+              width: 90%;
+              margin-top: 15px;
+              box-shadow: rgba(195, 104, 104, 0.1) 0px 4px 12px;
+            "
+          />
+          <p style="margin-top: 15px; font-size: 18px; color: rgb(57, 55, 55);"><b>PRODUCT DETAILS</b></p>
+          <p>Black T-shirt for men</p>
+            <p>Typography minimal print detail on left chest</p>
+            <p>Solid</p>
+            <p>Regular length</p>
+            <p>Polo collar</p>
+            <p>Short, regular sleeves</p>
+            <p>Knitted cotton fabric</p>
+            <p>Button closure</p>
+          <p style="margin-top: 15px; font-size: 18px; color: rgb(57, 55, 55);"><b>Size & Fit</b></p>
+          <p>Regular Fit</p>
+            <p>Size worn by the model: M</p>
+            <p>Chest: 39"</p>
+            <p>Height: 6'</p>
+            <p>Polo collar</p>
+            <p>Short, regular sleeves</p>
+            <p>Knitted cotton fabric</p>
+            <p>Button closure</p>
+            <p style="margin-top: 15px; font-size: 18px; color: rgb(57, 55, 55);"><b>Material & Care</b></p>
+          <p>60% Cotton, 40% Polyester</p>
+            <p>Machine-wash</p>
+            <p style="margin-top: 15px; font-size: 18px; color: rgb(57, 55, 55);"><b>Specifications</b></p>
+            <div class="line">
+            <p class="colornew" style="margin-right: 15rem;">Closure</p>
+            <p class="colornew">Fabric</p>
+            </div>
+            <div class="line">
+            <p style="margin-right: 15rem; border-bottom: 1px solid rgb(195, 186, 186);">Button</p>
+            <p>Cotton</p>
+            </div>
+            <div class="line">
+            <p class="colornew" style="margin-right: 15rem;">Cotton</p>
+            <p class="colornew">Fabric</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -11,7 +11,8 @@
             padding: 0;
         }
         body{
-            font-family: 'Inter', sans-serif !important;
+            font-family: Inter, Roboto, Arial, sans-serif;
+            background-color: #F3F3F3;
         }
         .back{
             display: flex;
@@ -92,13 +93,19 @@
         .thrirdnav{
             display: flex;
             justify-content: space-around;
-            margin-top: 1rem;
+            margin-top: 0.2rem;
             background-color: white;
+            height: 2rem;
         }
         nav{
             position: fixed;
             top: 0;
             left: 0;
+        }
+        .bodynew{
+            display: flex;
+            justify-content: space-around;
+            margin-left: 1rem;
         }
     </style>
 </head>
@@ -149,17 +156,18 @@
 </div>
     </nav>
     <div style="margin-top: 12rem; margin-left: 2rem;">
-   <h1>The Makeup Store</h1>
+   <p style="color: gray;"><b>Home <span style="font-size: 0.8rem;">></span> My wishlist</b></p>
    <p style="color: gray;">Discover a limitless range of makeup</p>
 
 </div>
-    <div style="margin-top: 2rem; margin-left: 2rem;">
-   <h2>Best of Makeup</h2>
-
-</div>
-    <div style="margin-top: 2rem; margin-left: 2rem;">
-   <h2>Best of Makeup</h2>
-
-</div>
+    <div class="bodynew">
+        <div style="margin-top: 2rem; background-color: white; width: 25%;">
+        <div style="border-bottom: 1px solid rgb(193, 191, 191);  padding: 1rem;"><p style="color: rgb(81, 78, 78);"><i class="fa-solid fa-user"></i> My Profile</p></div>
+        <div style="border-bottom: 1px solid rgb(193, 191, 191); padding: 1rem;"><p style="color: rgb(81, 78, 78);"><i class="fa-solid fa-ticket"></i> My Coupons</p></div>
+        <div style="border-bottom: 1px solid rgb(193, 191, 191); padding: 1rem;"><p style="color: rgb(81, 78, 78);"><i class="fa-solid fa-wallet"></i> My Wallets</p></div>
+        <div style="border-bottom: 1px solid rgb(193, 191, 191); padding: 1rem;"><p style="color: rgb(81, 78, 78);"><i class="fa-solid fa-truck"></i> My Orders</p></div>
+        <div style="border-bottom: 1px solid rgb(193, 191, 191); padding: 1rem;"><p style="color: rgb(81, 78, 78);"><i class="fa-solid fa-heart" style="color: #E80071;"></i> My Wishlist</p></div>
+        <div style="border-bottom: 1px solid rgb(193, 191, 191); padding: 1rem;"><p style="color: rgb(81, 78, 78);"><i class="fa-solid fa-power-off"></i> Logout</p></div></div>
+        <div style="margin-top: 2rem; background-color: white; width: 55%; margin-right: 12rem;"><div style="border-bottom: 1px solid rgb(193, 191, 191); padding: 1rem;"><h1>My Wishlist <span style="color: #E80071;">(7)</span></h1></div></div></div>
 </body>
 </html>
